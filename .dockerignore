@@ -1,0 +1,12 @@
+node_modules
+backend/dist
+frontend/dist
+coverage
+.git
+.env
+*.log
+*.tsbuildinfo
+data
+database.sqlite
+database.sqlite-*
+

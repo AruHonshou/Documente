@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-zinc-950 text-zinc-50 antialiased;
+  }
+
+  * {
+    scrollbar-color: #3f3f46 #18181b;
+  }
+}
+
+@layer components {
+  .app-shell {
+    @apply min-h-screen bg-[radial-gradient(circle_at_top_left,rgba(20,184,166,0.14),transparent_34rem),linear-gradient(135deg,#09090b_0%,#111827_54%,#0f172a_100%)] text-zinc-50;
+  }
+
+  .panel {
+    @apply rounded-md border border-white/10 bg-zinc-950/75 shadow-2xl shadow-black/25 backdrop-blur;
+  }
+
+  .muted-panel {
+    @apply rounded-md border border-white/10 bg-white/[0.045];
+  }
+
+  .field {
+    @apply h-11 w-full rounded-md border border-white/10 bg-zinc-950/80 px-3 text-sm text-white outline-none transition placeholder:text-zinc-600 focus:border-teal-300 focus:ring-2 focus:ring-teal-300/20;
+  }
+}
