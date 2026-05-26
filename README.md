@@ -4,6 +4,14 @@ Asistente fullstack para cargar documentos, generar embeddings, recuperar chunks
 
 Developer: Kendall Andres Valverde Diaz
 
+## Documentacion completa
+
+La documentacion tecnica completa del proyecto esta en:
+
+[docs/PROJECT_DOCUMENTATION.md](docs/PROJECT_DOCUMENTATION.md)
+
+Incluye arquitectura, seguridad, RAG, agentes, base de datos, GitHub Pages, CI, Docker, endpoints y guia local paso a paso.
+
 ## Stack
 
 - Frontend: React + TypeScript + Vite + TailwindCSS + Zustand.
